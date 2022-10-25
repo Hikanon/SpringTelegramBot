@@ -11,10 +11,10 @@ import java.util.List;
 @Component
 public class KeyBoard {
 
-    public ReplyKeyboardMarkup getMainMenyKeyBoard(){
+    public ReplyKeyboardMarkup getMainMenuKeyBoard(){
 
         KeyboardRow row1 = new KeyboardRow();
-        row1.add(new KeyboardButton("Анектод"));
+        row1.add(new KeyboardButton("Анекдот"));
 
 
         final ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
